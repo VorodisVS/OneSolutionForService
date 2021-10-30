@@ -1,0 +1,1 @@
+dotnet migrate-2019 wizard .\ManagementServer.sln - migrate all project to sdk-style.
