@@ -1,4 +1,4 @@
-$changedFiles = git diff --name-only feature/modify master
+$changedFiles = git diff --name-only feature/branch2 master
 $changedProj = $changedFiles | Foreach-Object { $_.Split("/")[1] }
 
 $slnFiles = Get-ChildItem -Recurse -Include "*.sln"
